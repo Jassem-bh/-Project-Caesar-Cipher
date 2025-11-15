@@ -1,0 +1,32 @@
+
+
+numbers.each do |number|  ----->> parcourir tableau et retourner  V or F if element  exsist ou non
+numbers = [5, 6, 7, 8]
+element = 6
+result = false
+  if number == element
+    result = true
+    break
+  end
+end
+
+result
+# => true
+------------------------------------------------------------------------
+numbers = [5, 6, 7, 8]
+
+numbers.include?(6)
+#=> true
+a short methods 
+--------------------------------------------------------------------------------------
+invited_list = friends.select { |friend| friend != 'Brian' } ------------<<<>>(select___ selcter les element ) 
+-------------------------------------------------------------------------------------------- 
+
+
+#include? : Vérifie si la collection contient l'objet spécifié.
+
+#any? : Vérifie si au moins un élément satisfait la condition donnée (ou est non-falsy si aucun bloc n'est donné).
+
+#all? : Vérifie si tous les éléments satisfont la condition donnée (ou sont non-falsy si aucun bloc n'est donné).
+
+#none? : Vérifie si aucun élément ne satisfait la condition donnée (ou si tous les éléments sont falsy si aucun bloc n'est donné).
